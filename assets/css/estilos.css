@@ -1,0 +1,199 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.5;
+}
+.container {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+header {
+  display: table;
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  background-image: url(../img/banner\ la\ isla\ misteriosa.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 10%;
+}
+
+footer {
+  display: table;
+  width: 100%;
+  height: 85px;
+  background-color:  #351c0c;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 1%;
+  margin-top: 3%;
+}
+
+.cuerpo {
+  display: table;
+  width: 100%;
+
+}
+
+/* Imagenes */
+
+.imagen-portada {
+  display: block;
+  margin: auto;
+  width: 275px;
+  height: 500px;
+  float: right;
+  margin-left: 4%;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-naufragos {
+  display: block;
+  margin: auto;
+  width: 295px;
+  height: 500px;
+  float: right;
+  margin-left: 4%;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-finisla {
+  display: block;
+  margin: auto;
+  width: 295px;
+  height: 500px;
+  float: left;
+  margin-right: 4%;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-mapa {
+  display: block;
+  margin: auto;
+  width: 295px;
+  height: 500px;
+  margin-bottom: 5%;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-juliov {
+  width: 228px;
+  height: 300px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+/* Barra de navegacion */
+
+nav {
+  background-color: #49260f;
+  color: white;
+}
+
+nav ol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ol li {
+  list-style: none;
+}
+
+nav ol li a {
+  text-decoration: none;
+  display: block;
+  padding: 18px 18px;
+  color: white;
+  font-size: 20px;
+  font-family: Open Sans;
+  transition: all ease 0.3s;
+}
+
+nav ol li a:hover {
+  border-bottom: 5px solid rgb(51, 26, 3);
+  transition: all ease 0.3s;
+}
+
+/* titulos y texto*/
+
+p {
+  width: 90%;
+  display: table;
+  padding-left: 6%;
+  text-align: justify;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.cuerpo #personajes li {
+  font-family: Open Sans;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 80%;
+}
+
+.lista {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lista li {
+  padding: 0px;
+}
+
+.cuerpo #introduccion h1 {
+  font-size: 60px;
+  padding-top: 2%;
+  text-align: center;
+  font-family: "Lumanosimo", cursive;
+}
+
+.cuerpo h2 {
+  font-size: 30px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  font-family: "Lumanosimo";
+  text-align: center;
+}
+
+.cuerpo h3 {
+  font-size: 40px;
+  padding-top: 2%;
+  text-align: center;
+  font-family: "Lumanosimo", cursive;
+}
+
+hr {
+  border: 3px solid #5c3114;
+  text-align: center;
+  border: radius 80%;
+  margin: 5%;
+}
+
+
+
+
